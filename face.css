@@ -1,0 +1,94 @@
+<style>
+div{
+  
+}
+#face{
+     position:absolute;
+     width: 50%;
+     height:50%;
+     top:20%;
+      left:25%;
+   border:solid black;
+   border-radius:100px;
+   box-shadow:10px 5px 35px;
+   background:linear-gradient(40deg, #CCFFFF, #FFCCCC);
+   
+}
+
+ #rightEye{
+        
+        position:absolute;
+        height:15%;
+        width:5%;
+        right:40%;
+        top:30%;
+        border-radius: 100%;
+        background-color:black;
+        box-shadow:-5px 0px 0px 05px whitesmoke; 
+}   
+
+.Eye{
+  background-color:#FFCC00;
+}
+
+    #leftEye{
+     border-radius:100%;
+     position:fixed;
+     height:15%;
+     width:5%;
+     left:40%;
+     top:30%;
+     background-color:black;
+     box-shadow:-5px -0px 0px 05px whitesmoke;
+     animation-name:eyedrop;
+     animation-duration: 10secs;
+}
+@keyframes eyedrop{
+    50% {
+    bottom:50px;
+ }
+}
+  #nose{
+   position:absolute;
+   background-color:black;
+   border-radius: 50%;
+   height:30px;
+   width: 30px;
+   left:48%;
+   top:50%;     
+      
+}
+
+#mouth{
+  position:absolute;
+  margin: 0 auto;   
+  border-radius: 75%;
+  background-color: black;
+  box-shadow: 5px 2px 5px 7px white;
+  height:15px;
+  width:12%;
+  top:60%;
+  right:44%;
+}    
+
+#LeftEyebrow{
+ position:absolute;
+ border-radius:30px;
+ background-color: black;
+ width:8%;
+ height:6px;
+ top:27%;
+ left:38%;
+
+}    
+    
+ #RightEyebrow{
+ position:absolute;
+ border-radius:30px;
+ background-color: black;
+ width:8%;
+ height:6px;
+ top:27%;
+ right:38%;
+}
+</style>
